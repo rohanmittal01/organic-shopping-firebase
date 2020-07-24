@@ -1,0 +1,17 @@
+<h2>Orders</h2>
+<table class="table">
+  <thead>
+    <tr>
+      <th>Customer</th>
+      <th>Date</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+      <tr *ngFor="let data of ordersArray">
+          <td>{{data.name}}</td>
+          <td><span>{{data.date}}</span></td>
+          <td><a>View</a></td>
+      </tr>
+  </tbody>
+</table>

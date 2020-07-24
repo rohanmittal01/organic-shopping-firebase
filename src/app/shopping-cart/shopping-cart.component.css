@@ -1,0 +1,22 @@
+th {
+  text-align: center;
+}
+.noData {
+    display: block;
+    margin: auto;
+    /* margin-left: auto;
+    margin-right: auto; */
+    height: 40%;
+    width: 40%;
+}
+
+.noDataButton{
+    color: white;
+}
+
+.thumbnail{
+    width: 38px;
+    height: 38px;
+    border-radius: 100%;
+    background-size: cover;
+}
